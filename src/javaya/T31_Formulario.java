@@ -18,6 +18,7 @@ public class T31_Formulario extends JFrame implements ActionListener {
         add(boton1);
         boton1.addActionListener(this);
     }
+    @Override
         public void actionPerformed(ActionEvent e) {
         if (e.getSource()==boton1) {
             System.exit(0);
